@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Yogur Natural Fruits</title>
+
+<//Hoja de estilos global//>
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<script>
+function validarLogin(event) {
+    event .preventDefault();
+
+    const usuario = document.getElementById("usuario").value;
+    const pasword = document.getElementById(pasword).value;
+
+    if (usuario === "demo" && pasword === "123456") {
+        window.location.href = "dashboard.html";
+    } else {
+        alert("Usuario o contrasena incorrectos");
+    }
+}
+
+</script>
+
+<body>
+<body class="login-page">
+
+<!--CONTENEDOR PRINCIPAL-->
+
+<div class="login-container">
+
+<div class="login-header">
+    <img src="img/logo.png.png" alt="logo" class="logo">
+
+    <h1><center>Yogur Natural Fruits</center> </h1>
+    <p><center>Sistema de Gestión</center></p>
+</div>
+
+</div>
+
+</body>
+    
+</body>
+</html>
